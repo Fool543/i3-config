@@ -196,3 +196,6 @@ bar {
 		-t iceberg-rainbow
         position top
 }
+
+# Walpapers
+exec_always feh --bg-fill
