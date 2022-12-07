@@ -198,4 +198,5 @@ bar {
 }
 
 # Walpapers
-exec_always feh --bg-fill
+exec_always feh --bg-fill $HOME/i3-config/Wallpapers/1.jpg
+exec_always picom --experimental-backends -b
