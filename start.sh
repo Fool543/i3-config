@@ -8,5 +8,7 @@ makepkg -si &&
 yay -S bumblebee-status python-pulsectl &&
 rm ~/.config/i3/config &&
 cp config ~/.config/i3/config &&
+mkdir ~/.config/picom &&
+cp picom.conf ~/.config/picom/picom.conf &&
 startx i3
 
