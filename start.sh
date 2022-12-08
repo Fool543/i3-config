@@ -5,6 +5,7 @@ mkdir $HOME/.config/i3 &&
 cp config ~/.config/i3/ &&
 mkdir ~/.config/picom &&
 cp picom.conf ~/.config/picom/ &&
+cp environment /etc/ 
 # mkdir ~/.config/alacritty &&
 # cp alacritty.yml ~/.config/alacritty/ &&
 # startx i3
