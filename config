@@ -199,3 +199,4 @@ bar {
 # Walpapers
 exec_always feh --bg-fill $HOME/i3-config/Wallpapers/1.jpg
 exec_always picom -b
+for_window [class="^.*"] border pixel 0.9
