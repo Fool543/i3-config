@@ -1,4 +1,4 @@
-# sudo systemctl enable --now NetworkManager &&
+sudo systemctl enable --now NetworkManager &&
 cd $HOME/i3-config &&
 sudo cp .xinitrc $HOME/ &&
 mkdir $HOME/.config/i3 &&
