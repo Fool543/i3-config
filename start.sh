@@ -7,5 +7,5 @@ mkdir ~/.config/picom &&
 cp picom.conf ~/.config/picom/ &&
 # mkdir ~/.config/alacritty &&
 # cp alacritty.yml ~/.config/alacritty/ &&
-startx i3
+# startx i3
 
