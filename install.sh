@@ -1,4 +1,4 @@
-sudo pacman -S --needed xorg-server xorg-apps xorg-xinit i3-gaps i3-block xorg-xbacklight i3status ttf-roboto firefox thunar vim git rofi picom lxappearance alacritty materia-gtk-theme adwaita-icon-theme gedit &&
+sudo pacman -S --needed xorg-server xorg-apps xorg-xinit i3-gaps i3-block xorg-xbacklight i3status ttf-roboto firefox thunar vim git rofi picom xf86-video-intel xfce4-terminal lxappearance materia-gtk-theme adwaita-icon-theme gedit &&
 git clone https://aur.archlinux.org/yay.git &&
 cd yay &&
 makepkg -si &&
