@@ -226,7 +226,7 @@ bindsym $mod+b exec "firefox"
 bindsym $mod+f exec "thunar"
 bindsym Print exec flameshot gui
 bindsym $mod+F1 exec "rofi -show run" 
-bindsym $mod+F2 exec "betterlockscreen -l blur"
+bindsym $mod+F2 exec "betterlockscreen -l dim"
 
 # Open specific applications in floating mode
 for_window [class="WebApp-WhatsAppDesktop5190"] floating enable border pixel 1
@@ -247,7 +247,7 @@ for_window [class="Oblogout"] fullscreen enable
 for_window [class="octopi"] floating enable
 for_window [title="About Pale Moon"] floating enable
 for_window [class="xreader"] floating enable
-# for_window [class="Pavucontrol"] floating enable
+for_window [class="Pavucontrol"] floating enable
 for_window [class="qt5ct"] floating enable sticky enable border normal
 for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
 for_window [class="Simple-scan"] floating enable border normal
